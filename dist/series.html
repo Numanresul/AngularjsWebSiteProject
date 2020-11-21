@@ -1,0 +1,14 @@
+
+<div ng-show="error">Oooppss... Something went wrong!</div>
+<div ng-show="loading">Loading...</div>
+<div ng-init="load()">
+<div ng-show="!error && !loading" class="width7" ng-repeat="serie in series">
+    <a class="white-text" href="#/"> <div class="cart-imgList"><img class="img" width="100%" height="auto" ng-src="{{serie.images['Poster Art'].url}}" imageonload /></div></a>
+    <div><label class="label-cart">{{serie.title}}</label></div>
+  </div>
+</div>
+<script>
+    document.getElementByClassName("img").addEventListener("load", function () {
+        console.log("girdi")
+    } );
+</script>

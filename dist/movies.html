@@ -1,0 +1,6 @@
+<div ng-show="error">Oooppss... Something went wrong!</div>
+
+<div ng-show="!error" class="width7" ng-repeat="movie in movies">
+    <a class="white-text" href="#/"> <div class="cart-imgList"><img width="100%" height="auto" ng-src="{{movie.images['Poster Art'].url}}" imageonload/></div></a>
+    <div><label class="label-cart">{{movie.title}}</label></div>
+  </div>

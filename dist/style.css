@@ -1,0 +1,132 @@
+.header{
+background-color: #0083FF;
+display: block;
+padding: 0%;
+color: white;
+}
+.body{
+    margin: 0px;
+    font-weight: normal!important;
+}
+.widthRow{
+    width: 100%;
+}
+.width2{
+width: 49%;
+display: inline-block;
+}
+.width3{
+    width: 33%;
+    display: inline-block;
+}
+.width4{
+    width: 24%;
+    display: inline-block;
+}
+.width5{
+     width: 19%;
+     display: inline-block;
+}
+.width6{
+    width: 16%;
+    display: inline-block;
+}
+.width7{
+     width: 14%;
+     display: inline-block;
+}
+h1{
+    margin-left: 10%;
+    font-weight: normal;
+}
+.center{
+    text-align: center;
+}
+.bg-blue{
+background-color:#0083FF;
+}
+.bg-dark{
+background-color: #414141;
+}
+.white-text{
+color: white;
+text-decoration: none;
+}
+.button-border{
+    border: none;
+    height: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+.button-border:hover{
+    background-color: black;
+}
+.title-div{
+    
+    display: block;
+    height: 10%;
+}
+.title-text{
+    margin-left: 5%;
+    font-size: 1.5em;
+    height: 100%;
+}
+#footer {
+    /* position:absolute; */
+    bottom:0;
+    width:96%;
+    /* height:25%;   footer yüksekliği */
+    background:#1E1E1E;
+    text-align:center;
+    padding: 2%;
+ }
+ .social-img{
+    width: 15%;
+    height: auto;
+    margin-right: 10%;
+ }
+ .store-img{
+    width: 21%;
+    height: auto;
+    margin-right: 10%;
+ }
+ .footer-text1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: left;
+    padding-left: 12%;
+    font-size: 1em;
+    font-family: ui-sans-serif;
+    color: #aeaeae;
+ }
+ .footer-text2{
+    margin-top: 0%;
+    margin-bottom: 3%;
+    text-align: left;
+    padding-left: 12%;
+    font-size: 0.8em;
+    font-family: ui-sans-serif;
+    color: #8a8a8a;
+ }
+ .cart-img{
+    height: 40%;
+    background: url("assets/klaket4.png") no-repeat center  #171c1d;
+    background-size: auto;
+    margin: 10px;
+ }
+ .cart-imgList{
+    height: 40%;
+    margin: 10px;
+ }
+ .bg-text{
+    padding-top: 55%;
+    text-align: center;
+    font-size: 2em;
+ }
+ .label-cart{
+    margin: 12px;
+    color: #3f4637;
+ }
+ .mb10{
+    margin-bottom: 10%;
+ }
